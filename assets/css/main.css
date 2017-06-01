@@ -19,6 +19,7 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	position: absolute;
 	top: 33px;
 	left: 33px;
+	text-decoration: none;
 }
 .enlaces{ /*estilos de los enlaces*/
 	 list-style: none;
@@ -27,11 +28,11 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	 right: 0px;
 	 margin: 0;
 	 overflow: hidden;
-	}
+}
 
 .navegador ul li { /*alineación enlaces barra navegador*/
 	 display: inline-block;
-	}
+}
 
 .navegador ul li a { /*enlaces de la barra*/
 	 display: inline-block;
@@ -40,8 +41,21 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	 padding: 20px;
 	 text-decoration: none;
 	 font-size: 13px;
-	}
+}
 
 .navegador li a:hover{ /*cambia el color cuando el cursor pasa por encima*/
 	color: #18BC9C ;
+}
+.section-profile{
+	background-color: #18BC9C;
+	padding: 15%; 
+	text-align: center
+}
+.section-profile h1{
+	font-size: 66px;
+	color: white;
+}
+.section-profile p{
+	font-size: 20px;
+	color: white;
 }
