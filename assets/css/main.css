@@ -14,10 +14,11 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	z-index: 1;
 }
 .logo{
-	font-size: 30px;
+	font-size: 25px;
 	color: #fff;
 	position: absolute;
-	top: 0;
+	top: 33px;
+	left: 33px;
 }
 .enlaces{ /*estilos de los enlaces*/
 	 list-style: none;
