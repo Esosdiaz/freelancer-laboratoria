@@ -35,6 +35,32 @@
 	 float: left;
 	 padding: 12px;
 }
+.estrella {
+	display: block;
+	width: 230px;
+	height: 5px;
+	background-color: #fff;
+	left: 0;
+	right: 0;
+	margin: 1em auto;
+	position: relative;
+	color: white;
+}
+.estrella:after {
+	content: "\f005";
+    font-family: 'FontAwesome';
+    background-color: #18BC9C;
+    width: 1.5em;
+    overflow: hidden;
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -.5em;
+}
 
 /*Columnas*/
 .col-1{
