@@ -1,0 +1,46 @@
+/*
+ * Estilos de tu proyecto
+ */
+ *{/*llamada unversal, reset de margenes, padding y llamada a la fuente*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
+	width: 100%;
+	height: 15%;
+	background-color: #2C3E50; 
+	position: fixed;
+	z-index: 1;
+}
+.logo{
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+}
+.enlaces{ /*estilos de los enlaces*/
+	 list-style: none;
+	 position: absolute;
+	 top: 18px;
+	 right: 0px;
+	 margin: 0;
+	 overflow: hidden;
+	}
+
+.navegador ul li { /*alineación enlaces barra navegador*/
+	 display: inline-block;
+	}
+
+.navegador ul li a { /*enlaces de la barra*/
+	 display: inline-block;
+	 color: white;
+	 text-align: center;
+	 padding: 20px;
+	 text-decoration: none;
+	 font-size: 13px;
+	}
+
+.navegador li a:hover{ /*cambia el color cuando el cursor pasa por encima*/
+	color: #18BC9C ;
+}
