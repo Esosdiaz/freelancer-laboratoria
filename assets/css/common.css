@@ -29,7 +29,13 @@
 .row:after{
 	clear: both;
 }
-
+.centered {
+	margin: 0 auto;
+	float: none !important;
+}
+.title {
+    margin-bottom: 50px;
+}
 [class*="col-"]{
 	 min-height: 7px;
 	 float: left;
@@ -68,7 +74,6 @@
 	background-color: black;
 	left: 0;
 	right: 0;
-	top: 70px;
 	margin: 1em auto;
 	position: relative;
 	color: black;

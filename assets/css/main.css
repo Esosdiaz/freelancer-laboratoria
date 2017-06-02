@@ -62,15 +62,15 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 }
 .section-portfolio {
 	text-align: center;
+	overflow: hidden;
+	margin: 50px 0;
+    width: 100%;
 }
 .section-portfolio h1{
 	font-size: 35px;
-	position: relative;
-	top: 70px;
 }
 .caja-portfolio{
   	position: relative;
-  	top: 70px;
   	width: 33%;
     float: left;
     margin: -7px 0%;
@@ -78,5 +78,18 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 .caja-portfolio img{
   width: 100%;
 }
+.section-about{
+	background-color: #18BC9C;
+    padding: 50px 0;
+    text-align: center;
+}
+.section-about h1{
+	font-size: 35px;
+	position:relative;
+	color: white;
+}
+.section-about p{
+	font-size: 20px;
+	color: white;
 
 
