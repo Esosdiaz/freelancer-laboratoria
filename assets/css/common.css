@@ -35,7 +35,7 @@
 	 float: left;
 	 padding: 12px;
 }
-.estrella {
+.estrella-blanca {
 	display: block;
 	width: 230px;
 	height: 5px;
@@ -46,7 +46,7 @@
 	position: relative;
 	color: white;
 }
-.estrella:after {
+.estrella-blanca:after {
 	content: "\f005";
     font-family: 'FontAwesome';
     background-color: #18BC9C;
@@ -61,7 +61,33 @@
     right: 0;
     top: -.5em;
 }
-
+.estrella-negra {
+	display: block;
+	width: 230px;
+	height: 5px;
+	background-color: black;
+	left: 0;
+	right: 0;
+	top: 70px;
+	margin: 1em auto;
+	position: relative;
+	color: black;
+}
+.estrella-negra:after {
+	content: "\f005";
+    font-family: 'FontAwesome';
+    background-color: #fff;
+    width: 1.5em;
+    overflow: hidden;
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -.5em;
+}
 /*Columnas*/
 .col-1{
 	/*(1/12)*100*/

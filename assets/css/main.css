@@ -11,6 +11,7 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	height: 15%;
 	background-color: #2C3E50; 
 	position: fixed;
+	left: 0;
 	z-index: 1;
 }
 .logo{
@@ -55,8 +56,27 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	font-size: 66px;
 	color: white;
 }
-
 .section-profile p{
 	font-size: 20px;
 	color: white;
 }
+.section-portfolio {
+	text-align: center;
+}
+.section-portfolio h1{
+	font-size: 35px;
+	position: relative;
+	top: 70px;
+}
+.caja-portfolio{
+  	position: relative;
+  	top: 70px;
+  	width: 33%;
+    float: left;
+    margin: -7px 0%;
+}
+.caja-portfolio img{
+  width: 100%;
+}
+
+
