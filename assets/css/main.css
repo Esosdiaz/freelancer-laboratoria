@@ -76,12 +76,15 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
     margin: -7px 0%;
 }
 .caja-portfolio img{
-  width: 100%;
+  	width: 100%;
 }
 .section-about{
 	background-color: #18BC9C;
     padding: 50px 0;
     text-align: center;
+}
+.about-col{
+	width: 30%;
 }
 .section-about h1{
 	font-size: 35px;
@@ -89,7 +92,22 @@ nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
 	color: white;
 }
 .section-about p{
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
-
-
+	text-align: left;
+	font-weight: 400;
+}
+.caja-about{
+	width:60%;
+}
+.btn-download{
+	width: 170px;
+  	height: 50px;
+  	border-radius: 5px;
+  	border-style: solid;
+  	border-color: whitesmoke;
+  	color: whitesmoke;
+  	background-color: #18bc9c;
+  	font-size: 14px;
+  	cursor: pointer;
+}
